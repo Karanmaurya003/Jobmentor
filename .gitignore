@@ -1,0 +1,85 @@
+# --------------------
+# 🧹 General Files
+# --------------------
+*.class
+*.log
+*.pyc
+*.swp
+*.tmp
+.DS_Store
+*.apk
+*.ipa
+
+# --------------------
+# 🔒 Secrets & Local Config
+# --------------------
+firebase_options.dart
+.env
+keys/
+secrets/
+*.jks
+*.p12
+android/key.properties
+
+# --------------------
+# 🧠 IDE Configs
+# --------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# --------------------
+# ⚙️ Flutter / Dart
+# --------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Flutter docs
+doc/api/
+
+# --------------------
+# 📱 iOS
+# --------------------
+**/ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/App.framework/
+ios/Flutter/Generated.xcconfig
+ios/.generated/
+ios/Runner.xcworkspace/
+
+# --------------------
+# 🤖 Android
+# --------------------
+.android/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/key.properties
+android/app/google-services.json
+
+# --------------------
+# 🧪 Test Artifacts
+# --------------------
+test/**/.tmp/
+coverage/
+*.lcov
+
+# --------------------
+# 🧰 macOS/Windows/Linux build (if desktop is enabled)
+# --------------------
+macos/Flutter/ephemeral/
+windows/Flutter/ephemeral/
+linux/Flutter/ephemeral/
+build/
